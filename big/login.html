@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/login.js"></script>
+		<link rel="stylesheet" href="css/footer.css" />
+		<style>
+			tr{
+				height: 40px;
+			}
+			td{
+				width:300px;
+				margin-left:20px ;
+			}
+			.right{
+				text-align: right;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="back">
+		<center>
+		<table class="table">
+			<tr>
+				<td class="right">学号</td>
+				<td><input type="text" placeholder="请输入学号" id="sid"></td>
+			</tr>
+			<tr>
+				<td class="right">姓名</td>
+				<td><input type="text"placeholder="请输入姓名" id="sname"></td>
+			</tr>
+			<tr>
+			  <td class="right"><input type="checkbox" id="chk">记住密码</td>
+			  <td><input type="button" value="登录" onclick="login()">&nbsp;<input type="button" value="清除密码" id="clrpwd">
+			  <a href="reg.html">新用户注册</a>
+			  </td>
+			  
+			  
+			</tr>
+		</table></center>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,174 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	background-color: rgba(17, 27, 27, 0.04);
+	font: 14px/1.5 "PingFang SC", "微软雅黑", "Microsoft YaHei", Helvetica, "Helvetica Neue", Tahoma, Arial, sans-serif;
+}
+.footer
+{	
+	position: absolute;
+	background-color: #d2f3e0;
+	width: 70%;
+	height: 280px;
+    border-radius: 6px;
+    left: 220px;
+	box-shadow: 0 1px 3px 0 rgba(1, 1, 1, 0.3);
+}
+.guitar-left
+{
+	position: absolute;
+	left: 55px;
+    top: 12px;
+}
+
+.guitar-right
+{
+	position: absolute;
+	left: 840px;
+    top: -35px;
+}
+.end
+{
+	position: absolute;
+	bottom: -1220px;
+	width: 100%;
+	height: 230px;
+	background: #333;
+}
+
+.end-record
+{
+	position: absolute;
+	
+	width: 100%;
+	height: 230px;
+	background: #333;
+}
+.end-fitness
+{
+	position: absolute;
+	bottom: -2300px;
+	width: 100%;
+	height: 230px;
+	background: #333;
+}
+.footer-foot
+{
+	padding: 15px 0;
+    color: #666;
+    background: #191919;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+.footer-foot a
+{
+	    color: #999;
+}
+.foot-img
+{
+	position: relative;
+	left: 600px;
+    top: 38px;
+}
+.foot-img-logo
+{
+    height: 268px;
+    width: 417px;
+    position: absolute;
+    left: 191px;
+    top: -23px;
+}
+.foot-img-scancode
+{
+	height: 120px;
+    width: 120px;
+    position: absolute;
+    left: 1144px;
+    top: 54px;
+}
+.foot-title
+{
+	color: #c8e6f5;
+	letter-spacing: .6px;
+	line-height: 36px;
+	font-family: 微软雅黑;
+	font-size: 17px;
+    position: absolute;
+    left: 317px;
+    top: 156px;
+    font-weight: 500;
+}
+.back
+{
+	background-image: url(../img/background-img.png);
+	width:1495px;
+	height: 700px;
+	margin: 0px;
+}
+.back2
+{
+	background-image: url(../img/background-img2.png);
+	width:1495px;
+	height: 700px;
+	margin: 0px;
+}
+.table
+{
+    position: relative;
+    top: 400px;
+    left: 423px;
+}
+
+.table2
+{
+ 	position: relative;
+    top: 215px;
+    left: 549px;
+}
+.fitness-img
+{
+	position: relative;
+    left: 144px;
+    margin: 2px
+}
+.fitness-img img
+{
+	border-radius: 4px;
+}
+.fitness-dt
+{
+	position: relative;
+    left: 140px;
+    margin: 3px;
+    font-weight: 600;
+    color: #e90336;
+}
+.show-card-myself{
+	background-color: #FFFFFF;
+	width: 70%;
+	height: 2200px;
+	position: relative;
+	left: 217px;
+	border-radius: 5px;
+	margin-top:3px;
+	margin-bottom: 3px;
+	box-shadow: 0 1px 4px 0 rgba(1, 1, 1, 0.3);
+}
+.book-reco
+{
+	font-weight: 600;
+	font-size: 20px;
+	color: red;
+	opacity: 0.8;
+	position: relative;
+	left: 200px;
+	top: 20px;
+	margin-bottom: 20px;
+}

@@ -1,0 +1,23 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	background-color: rgba(17, 27, 27, 0.04);
+	font: 14px/1.5 "PingFang SC", "微软雅黑", "Microsoft YaHei", Helvetica, "Helvetica Neue", Tahoma, Arial, sans-serif;
+}
+.show-card-fitness{
+	background-color: #FFFFFF;
+	width: 70%;
+	height: 2300px;
+	position: relative;
+	left: 217px;
+	border-radius: 5px;
+	margin-top:3px;
+	margin-bottom: 3px;
+	box-shadow: 0 1px 4px 0 rgba(1, 1, 1, 0.3);
+	padding-right: 20px;
+}

@@ -1,0 +1,98 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	background-color: rgba(17, 27, 27, 0.04);
+	font: 14px/1.5 "PingFang SC", "微软雅黑", "Microsoft YaHei", Helvetica, "Helvetica Neue", Tahoma, Arial, sans-serif;
+}
+
+.box {
+	width: 1492px;
+	height: 400px;
+	border: 0.5px solid #ccc;
+	/*margin: 1px auto;*/
+	padding: 12px;
+	border-radius: 6px;
+}
+
+.inner {
+	width: 1492px;
+	height: 400px;
+	position: relative;
+	overflow: hidden;
+}
+
+.inner img {
+	width: 1492px;
+	height: 400px;
+	vertical-align: top
+}
+
+ul {
+	width: 100%;
+	position: absolute;
+	list-style: none;
+	left: 0;
+	top: 0;
+	
+}
+
+.inner li {
+	float: left;
+}
+
+ol {
+	position: absolute;
+	height: 20px;
+	right: 20px;
+	bottom: 20px;
+	text-align: center;
+	padding: 5px;
+}
+
+ol li {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	background-color: #fff;
+	margin: 5px;
+	cursor: pointer;
+	
+}
+
+ol .current {
+	background-color: red;
+}
+
+#arr {
+	
+}
+
+#arr span {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 5px;
+	top: 50%;
+	margin-top: -20px;
+	background: #fff;
+	cursor: pointer;
+	line-height: 40px;
+	text-align: center;
+	font-weight: bold;
+	font-family: '黑体';
+	font-size: 30px;
+	color: #000;
+	opacity: 0.5;
+	border: 1px solid #fff;
+}
+
+#arr #right {
+	right: 5px;
+	left: auto;
+}

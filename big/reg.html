@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/reg.js"></script>
+		<link rel="stylesheet" href="css/footer.css" />
+	</head>
+	<body>
+		<div class="back2">
+		<center>
+		<table width="400px" height="280px" class="table2">
+			<tr>
+				<td colspan="2"  style="padding-left: 60px;color: #2f8beb;font-weight: 600;">新用户注册</td>
+				
+			</tr>
+			<tr>
+				<td >学号</td>
+				<td><input type="text" id="sid" placeholder="请输入学号" pattern="^[0-9]{11}$"></td>
+			</tr>
+			<tr>
+				<td>姓名</td>
+				<td><input type="text" id="sname" placeholder="请输入姓名"></td>
+			</tr>
+			<tr>
+				<td>性别</td>
+				<td><input type="radio" value="男" name="ssex" checked>男
+				    <input type="radio" value="女" name="ssex">女				
+				</td>
+			</tr>
+			<tr>
+				<td>年龄</td>
+				<td><input type="number" id="sage" value="20" min="16" max="25"></td>
+			</tr>
+			<tr>
+				<td>专业</td>
+				<td>
+					<select id="major">
+						<option value="软件工程">软件工程</option>
+						<option value="网络工程">网络工程</option>
+						<option value="财务管理">财务管理</option>
+						<option value="文化产业">文化产业</option>
+					</select>
+				
+				</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>
+					<input type="button" value="注册" style="color: #2f8beb;" onclick="reg()">
+					
+				</td>
+			</tr>
+		</table>
+		</center>
+		</div>
+	</body>
+</html>
